@@ -14,7 +14,7 @@ The **bash_aliases** file is installed as a hidden file in one's home directory:
 
 Ensure that your .bashrc file calls .bash_aliases by including (or confirming the inclusion of) code similar to the following:
 
-    if [ -f ~/.bash_aliases ]; thenThis file is installed as a hidden file in the home directory: `/home/$USER/.Xmodmap`
+    if [ -f ~/.bash_aliases ]; then
          . ~/.bash_aliases
     fi
 
