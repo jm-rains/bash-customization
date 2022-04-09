@@ -24,11 +24,20 @@ As an alternative, you could include all the alias definitions directly in the `
 
 After installing `.bash_aliases`, do `~$ source .bashrc`. Alternatively, you may simply close and reopen your terminal emulator. This is necessary because, generally speaking, your bash only reads its configuration files when the terminal first starts. 
 
-## Xmodmap
+### Xmodmap
+
 I use this Xmodmap file to convert my Right-Alt key to a **Hyper** key. As an Emacs enthusiast, and as someone who never uses the Right-Alt key for its intended purpose, I find it convenient to have another modifier key for various Emacs bindings. It is especially convenient to have a Hyper key, because no other keyboard shortcuts defined in the desktop environment, file manager, or elsewhere are going to conflict. The Hyper key is all mine!
 
 This file is installed as a hidden file in the home directory: `/home/$USER/.Xmodmap`
 
 To make the keyboard modification work, you must execute: `~$ xmodmap .Xmodmap`. I have this command in my startup items, so the Hyper key mod is automatically ready to go every time I restart.
+
+My beloved old ThinkPad X230 with the seven-row keyboard modification, as further modified to convert the Right-Alt key to a Hyper key:
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/102623234/162591619-2b3b84d1-23a8-46f3-bcac-04099bb35b41.jpg"
+     alt="ThinkPad X230 with Hyper key modification"
+     title="Lenovo ThinkPad X230 (modified)"    
+     style="width: 320px;height: 240px">
+</p>
 
 **NOTE:** This is the way I get my Hyper key on distributions like Linux Mint Debian Edition. On Fedora and Arch, I do not use this method. For those distros, I modify several files found in the `/usr/share/X11/xkb/` path, which then allows me to select the desired keyboard options via Gnome's GUI settings. Contact me if you are interested in the details. 
