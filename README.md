@@ -2,7 +2,7 @@
 Basic bash customizations I use to enhance my desktop Linux workflow
 
 ## Purpose
-This repository contains files I use to customize my bash experience. It is unlikely that the customizations--without significant modification--will be useful to anyone else. Nevertheless, I have made this a repository public on the chance that others might find some useful ideas for creating their own bash customizations. The custom aliases and keyboard modifications effected by these files work great *for me* on my *Debian based* installation. While you are welcome to use any files within this repository without modification, you will probably wind up with confusion in your terminal at best, and serious malfunctions at worst. Use at your own risk.
+This repository contains files I use to customize my bash experience. It is unlikely that the customizations--without significant modification--will be useful to anyone else. Nevertheless, I have made this repository public on the chance that others might find some useful ideas for creating their own bash customizations. The custom aliases and keyboard modifications effected by these files work great *for me* on my *Debian based* installation. While you are welcome to use any files within this repository without modification, you will probably wind up with confusion in your terminal at best, and serious malfunctions at worst. Use at your own risk.
 
 ## Contents
 At present, this repository contains:
